@@ -29,7 +29,6 @@ class CustomTableViewController: UITableViewController {
                                      style: .plain,
                                      target: self,
                                      action: #selector(editButtonTap(_:)))
-        button.tintColor = .white
         return button
     }()
     
@@ -38,7 +37,6 @@ class CustomTableViewController: UITableViewController {
                                      style: .done,
                                      target: self,
                                      action: #selector(doneButtonTap(_:)))
-        button.tintColor = .white
         return button
     }()
     
