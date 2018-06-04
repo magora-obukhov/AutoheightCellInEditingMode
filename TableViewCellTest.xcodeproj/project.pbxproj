@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		52EDDA0720C4F52C007B5691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDA0620C4F52C007B5691 /* AppDelegate.swift */; };
-		52EDDA0920C4F52C007B5691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDA0820C4F52C007B5691 /* ViewController.swift */; };
 		52EDDA0C20C4F52C007B5691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EDDA0A20C4F52C007B5691 /* Main.storyboard */; };
 		52EDDA0E20C4F52D007B5691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EDDA0D20C4F52D007B5691 /* Assets.xcassets */; };
 		52EDDA1120C4F52D007B5691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EDDA0F20C4F52D007B5691 /* LaunchScreen.storyboard */; };
+		52EDDA1920C5083B007B5691 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDA1820C5083B007B5691 /* CustomCell.swift */; };
+		52EDDA1B20C5087E007B5691 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDA1A20C5087E007B5691 /* CustomTableViewController.swift */; };
+		52EDDA1D20C509CB007B5691 /* UIView+Embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDA1C20C509CA007B5691 /* UIView+Embed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52EDDA0320C4F52C007B5691 /* TableViewCellTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EDDA0620C4F52C007B5691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52EDDA0820C4F52C007B5691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52EDDA0B20C4F52C007B5691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52EDDA0D20C4F52D007B5691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52EDDA1020C4F52D007B5691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52EDDA1220C4F52D007B5691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EDDA1820C5083B007B5691 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		52EDDA1A20C5087E007B5691 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		52EDDA1C20C509CA007B5691 /* UIView+Embed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Embed.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		52EDDA0520C4F52C007B5691 /* TableViewCellTest */ = {
 			isa = PBXGroup;
 			children = (
+				52EDDA1C20C509CA007B5691 /* UIView+Embed.swift */,
 				52EDDA0620C4F52C007B5691 /* AppDelegate.swift */,
-				52EDDA0820C4F52C007B5691 /* ViewController.swift */,
 				52EDDA0A20C4F52C007B5691 /* Main.storyboard */,
+				52EDDA1A20C5087E007B5691 /* CustomTableViewController.swift */,
+				52EDDA1820C5083B007B5691 /* CustomCell.swift */,
 				52EDDA0D20C4F52D007B5691 /* Assets.xcassets */,
 				52EDDA0F20C4F52D007B5691 /* LaunchScreen.storyboard */,
 				52EDDA1220C4F52D007B5691 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52EDDA0920C4F52C007B5691 /* ViewController.swift in Sources */,
+				52EDDA1920C5083B007B5691 /* CustomCell.swift in Sources */,
+				52EDDA1B20C5087E007B5691 /* CustomTableViewController.swift in Sources */,
+				52EDDA1D20C509CB007B5691 /* UIView+Embed.swift in Sources */,
 				52EDDA0720C4F52C007B5691 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
